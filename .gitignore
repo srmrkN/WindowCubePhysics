@@ -1,0 +1,58 @@
+# Ignore build directories
+/build/
+/bin/
+/out/
+
+# Ignore IDE specific files
+/.idea/
+/.vscode/
+/CLion*
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled object files and libraries
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.exe
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore GLEW and GLFW build files
+glew-2.1.0/
+glfw-3.3.2/
+
+# Ignore user-specific files
+*.user
+*.sublime-workspace
+
+# Ignore Python virtual environment
+venv/
+__pycache__/
+
+# Ignore Java build files
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore Kotlin build files
+*.kotlin_module
+
+# Ignore Gradle files
+.gradle/
+build/
